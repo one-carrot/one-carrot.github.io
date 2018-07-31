@@ -204,34 +204,34 @@ header.hidden{
 	font-size: 20px;
 	text-align: center;
 }
-.card.color-2 .card-header{
+.card.color-red .card-header{
 	background: #e30e0e; 
 }
-.card.color-2 span i{
+.card.color-red span i{
 	color:#e30e0e;
 }
-.card.color-3 .card-header{
+.card.color-green .card-header{
 	background: #6fbf17;
 }
-.card.color-3 span i{
+.card.color-green span i{
 	color:#6fbf17;
 }
-.card.color-4 .card-header{
+.card.color-blue .card-header{
 	background: #00b3f9; 
 }
-.card.color-4 span i{
+.card.color-blue span i{
 	color:#00b3f9;
 }
-.card.color-5 .card-header{
+.card.color-violet .card-header{
 	background: #5860ca; 
 }
-.card.color-5 span i{
+.card.color-violet span i{
 	color:#5860ca;
 }
-.card.color-6 .card-header{
+.card.color-cyan .card-header{
 	background: #00BCD4; 
 }
-.card.color-6 span i{
+.card.color-cyan span i{
 	color:#00BCD4;
 }
 /*section terms*/
@@ -290,21 +290,21 @@ header.hidden{
 .modal-body p{
 	line-height: 30px;
 }
-.modal-1 .modal-header{
+.modal-orange .modal-header{
 	background: #FF9800 !important;
 }
-.modal-2 .modal-header{
+.modal-red .modal-header{
 	background: #e30e0e !important;
 }
-.modal-3 .modal-header{
+.modal-green .modal-header{
 	background: #6fbf17 !important;
 }
-.modal-4 .modal-header{
+.modal-blue .modal-header{
 	background: #0ebef0 !important;
 }
-.modal-5 .modal-header{
+.modal-violet .modal-header{
 	background: #5860ca !important;
 }
-.modal-6 .modal-header{
+.modal-cyan .modal-header{
 	background: #00BCD4 !important;
 }
