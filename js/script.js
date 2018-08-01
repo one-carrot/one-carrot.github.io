@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$('.fb_dialog.fb_dialog_advanced.fb_customer_chat_bubble_animated_no_badge.fb_customer_chat_bubble_pop_in').removeAttr('class');
+	//$('.fb_dialog.fb_dialog_advanced.fb_customer_chat_bubble_animated_no_badge.fb_customer_chat_bubble_pop_in').removeAttr('class');
 	$('a.nav-link').click(function(event) {
 		event.preventDefault();
 		$('a.nav-link').removeClass('active');
