@@ -6,8 +6,11 @@
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Comfortaa', cursive;
-	box-shadow:none !important;
+	
 }
+.fb_customer_chat_bubble_animated_no_badge{
+	box-shadow:none !important;
+}	
 body{
 	width: 100%;
 	height: 100%;
