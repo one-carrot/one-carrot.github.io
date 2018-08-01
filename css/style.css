@@ -9,7 +9,7 @@
 	
 }
 .fb_dialog .fb_dialog_advanced.fb_customer_chat_bubble_animated_no_badge.fb_customer_chat_bubble_pop_in{
-	box-shadow:none !important;
+	border-radius:50%;
 }	
 body{
 	width: 100%;
