@@ -5,11 +5,7 @@
 *{
 	margin: 0px;
 	padding: 0px;
-	font-family: 'Comfortaa', cursive;
-	border-radius: 0px !important;
-}
-circle{
-border-radius: 50% !important;
+	font-family: 'Comfortaa', cursive;	
 }
 body{
 	width: 100%;
@@ -33,6 +29,7 @@ body{
 	border-radius:  2px;
 	cursor: pointer;
 	color:  #ffffff;
+	border-radius: 0px !important;
 }
 .btn-orange{
 	background:  #ef8b33;
@@ -89,6 +86,7 @@ body{
 }
 .card{
 	background: #f5f5f5;
+	border-radius: 0px !important;
 }
 .card span i{
 	font-size: 100px;
