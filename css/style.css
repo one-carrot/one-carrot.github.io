@@ -6,12 +6,13 @@
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Comfortaa', cursive;
+	border-radius: 0px !important;
 }
 
 body{
 	width: 100%;
 	height: 100%;
-	background: #e9ebee;
+	background: #f5f5f5;
 }
 /*component*/
 .btn-action {
@@ -32,55 +33,51 @@ body{
 	color:  #ffffff;
 }
 .btn-orange{
-	background:  #FF9800;
+	background:  #ef8b33;
 }
-.btn-orange.action{
-	box-shadow: 1px 5px 5px rgb(0,0,0,0.23);
-}
-.btn-white{
-	color:  #121212;
-	background:  #ffffff;
-	box-shadow: 2px 5px 5px rgb(0,0,0,0.23);
+.btn-outline-orange{
+	color:  #ef8b33;
+	background:  #f5f5f5;
+	border: 1px solid #ef8b33;
 }
 .btn-orange:hover{
-	background: #ef8f02;	
+	background: #d35400;
+	color: #f5f5f5;	
 }
-.btn-orange.action:hover{
-	box-shadow: 3px 5px 5px rgb(0,0,0,0.35);
-}
-.btn-white:hover{
-	background: #fafafa;
-	box-shadow: 3px 5px 5px rgb(0,0,0,0.35);
+
+.btn-outline-orange:hover{
+	background: #ef8b33;
+	color: #f5f5f5;
 }
 .btn-red{
-	background: #e30e0e;
+	background: #e74c3c;
 }
 .btn-red:hover{
-	background: #d20909;
+	background: #c0392b;
 }
 .btn-blue{
-	background: #0ebef0; 
+	background: #3498db; 
 }
 .btn-blue:hover{
-	background: #04a6e5;
+	background: #2980b9;
 }
 .btn-green{
-	background: #6fbf17;
+	background: #27ae60;
 }
 .btn-green:hover{
-	background: #61b10a;
+	background: #219753;
 }
 .btn-violet{
-	background: #5860ca;
+	background: #706fd3;
 }
 .btn-violet:hover{
-	background: #4950b1;
+	background: #5958b4;
 }
 .btn-cyan{
-	background: #00BCD4;
+	background: #07abc0;
 }
 .btn-cyan:hover{
-	background: #02a3b8;
+	background: #059aad;
 }
 .under-line{
 	width: 150px;
@@ -88,9 +85,12 @@ body{
 	background: #4b4f56;
 	margin: auto;
 }
+.card{
+	background: #f5f5f5;
+}
 .card span i{
 	font-size: 100px;
-	color: #f39408;
+	color: #ef8b33;
 }
 .card span{
 	display: block;
@@ -98,7 +98,7 @@ body{
 	text-align: center;
 }
 .card-header{
-	background: #FF9800;
+	background: #ef8b33;
 
 }
 .card-header h4{
@@ -171,7 +171,7 @@ header.hidden{
 }
 
 .nav-link.active{
-	border-bottom: 3px solid #FF9800;
+	border-bottom: 3px solid #ef8b33;
 }
 /*css content*/
 .main-content{
@@ -203,10 +203,8 @@ header.hidden{
 }
 .color-card{
 	width: 100%;
-	box-shadow: 3px 5px 5px rgb(0,0,0,0.1); 
 }
 .color-card:hover{
-	box-shadow: 3px 5px 5px rgb(0,0,0,0.25);
 }
 .feature-sub{
 	color: #4b4f56;
@@ -214,34 +212,34 @@ header.hidden{
 	text-align: center;
 }
 .card.color-red .card-header{
-	background: #e30e0e; 
+	background: #e74c3c; 
 }
 .card.color-red span i{
-	color:#e30e0e;
+	color:#e74c3c;
 }
 .card.color-green .card-header{
-	background: #6fbf17;
+	background: #27ae60;
 }
 .card.color-green span i{
-	color:#6fbf17;
+	color:#27ae60;
 }
 .card.color-blue .card-header{
-	background: #00b3f9; 
+	background: #3498db; 
 }
 .card.color-blue span i{
-	color:#00b3f9;
+	color:#3498db;
 }
 .card.color-violet .card-header{
-	background: #5860ca; 
+	background: #706fd3; 
 }
 .card.color-violet span i{
-	color:#5860ca;
+	color:#706fd3;
 }
 .card.color-cyan .card-header{
-	background: #00BCD4; 
+	background: #07abc0; 
 }
 .card.color-cyan span i{
-	color:#00BCD4;
+	color:#07abc0;
 }
 /*section terms*/
  p.card-text{
@@ -249,19 +247,19 @@ header.hidden{
 }
 .terms-body p.card-text i{
 	margin-right: 10px;
-	color: #6fbf17;
+	color: #27ae60;
 }
 .deny-body p.card-text i{
 	margin-right: 10px;
-	color: #e30e0e;	
+	color: #e74c3c;	
 }
 .alert-body p.card-text i{
 	margin-right: 10px;
-	color: #FF9800;
+	color: #ef8b33;
 }
 .info-body p.card-text i{
 	margin-right: 10px;
-	color: #00BCD4;
+	color: #07abc0;
 }
 .back-to-top{
 	width: 50px;
@@ -293,27 +291,27 @@ header.hidden{
 	font-weight: bold;	
 }
 .modal-body p i{
-	color: #6fbf17;
+	color: #27ae60;
 	margin-right: 10px;
 }
 .modal-body p{
 	line-height: 30px;
 }
 .modal-orange .modal-header{
-	background: #FF9800 !important;
+	background: #ef8b33 !important;
 }
 .modal-red .modal-header{
-	background: #e30e0e !important;
+	background: #e74c3c !important;
 }
 .modal-green .modal-header{
-	background: #6fbf17 !important;
+	background: #27ae60 !important;
 }
 .modal-blue .modal-header{
-	background: #0ebef0 !important;
+	background: #3498db !important;
 }
 .modal-violet .modal-header{
-	background: #5860ca !important;
+	background: #706fd3 !important;
 }
 .modal-cyan .modal-header{
-	background: #00BCD4 !important;
+	background: #07abc0 !important;
 }
