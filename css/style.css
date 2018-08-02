@@ -111,6 +111,7 @@ body{
 	text-transform: uppercase;
 	font-weight: bold;
 	margin-top: 12px;
+	border-radius: 0px !important;
 }
 /*css header*/
 header{
@@ -292,11 +293,15 @@ header.hidden{
 .modal-header{
 	color: #ffffff !important;
 	text-align: center;
-	font-weight: bold;	
+	font-weight: bold;
+	border-radius: 0px !important;
 }
 .modal-body p i{
 	color: #27ae60;
 	margin-right: 10px;
+}
+.modal{
+	border-radius: 0px !important;
 }
 .modal-body p{
 	line-height: 30px;
